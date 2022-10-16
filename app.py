@@ -2,9 +2,8 @@ import numpy as np
 import pandas as pd
 import re   
 import nltk 
-nltk.download()
-nltk.download("stopwords")
-from nltk.corpus import stopwords    
+from nltk.corpus import stopwords
+nltk.download("stopwords")    
 
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
