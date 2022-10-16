@@ -1,4 +1,3 @@
-pip install nltk
 import nltk
 nltk.download('all')
 nltk.download('wordnet')
